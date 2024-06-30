@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 750px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1000px;
+    }
+  }
+  
